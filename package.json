@@ -1,7 +1,7 @@
 {
   "name": "@essamay/ts-pipeline",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Inspired by laravel pipelines, using ts-pipelines you can pass an object between several classes in a fluid way to perform any type of task and finally return the resulting value once all the tasks have been executed.",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -9,9 +9,13 @@
   "scripts": {
     "build": "npx tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "pipeline"],
+  "author": "Essam Ayari",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EssamAy/ts-pipeline.git"
+  },
   "devDependencies": {
     "typescript": "^4.4.4"
   }

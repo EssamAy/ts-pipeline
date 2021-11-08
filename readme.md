@@ -1,6 +1,6 @@
 # ts-pipeline
 
-Inspired by laravel pipelines, using ts-pipelines you can pass an object between several classes in a fluid way to perform any type of task and finally return the resulting value once all the “tasks” have been executed.
+Inspired by laravel pipelines, using ts-pipeline you can pass an object between several classes in a fluid way to perform any type of task and finally return the resulting value once all the “tasks” have been executed.
 
 
 # Installation
@@ -14,8 +14,8 @@ in your main file
 ```
 import { Pipeline } from  '@essamay/ts-pipeline';
 import { RemoveBadWords } from  './filters/RemoveBadWords';
-import { RemoveBadWords } from  './filters/ReplaceLinkTags';
-import { RemoveBadWords } from  './filters/RemoveScriptTags';
+import { ReplaceLinkTags } from  './filters/ReplaceLinkTags';
+import { RemoveScriptTags } from  './filters/RemoveScriptTags';
 ...
 ...
 let  content = "some string here";
